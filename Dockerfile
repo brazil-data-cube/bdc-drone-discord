@@ -1,4 +1,4 @@
 FROM alpine
-ADD drone-discord-embed /bin/
+ADD bdc-drone-discord /bin/
 RUN apk -Uuv add ca-certificates
-ENTRYPOINT /bin/drone-discord-embed
+ENTRYPOINT /bin/bdc-drone-discord
